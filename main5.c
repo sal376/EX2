@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main() {
+    char grade ='B';
+    printf("Your grade is %c\n",grade);
+    switch (grade){
+    case 'A':
+        printf("Excellent!\n");
+        break;
+    case'B':
+    case'c':
+        printf("well done\n");
+        break;
+    case'D':
+    case'F':
+        printf("Better try again\n");
+    }
+    return 0;
+}
